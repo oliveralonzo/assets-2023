@@ -33,3 +33,10 @@ h1 {
 h2 {
   font-size: 3em;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #333;
+    color: white;
+  }
+}
