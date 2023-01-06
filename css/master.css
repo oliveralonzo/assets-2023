@@ -1,0 +1,35 @@
+body {
+  padding-top: 50px;
+}
+
+.main {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.fill {
+  min-height: 90vh;
+   height: 90vh;
+}
+
+.v-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+.fw-lighter {
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 3em;
+}
