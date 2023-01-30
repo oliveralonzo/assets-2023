@@ -7,6 +7,14 @@ body {
   font-size: 2rem;
 }
 
+.details{
+  font-weight: 500;
+}
+
+.details span {
+  padding-right: 2em;
+}
+
 .main::before {
   content: "";
   position: fixed;
@@ -37,12 +45,13 @@ body {
 }
 
 .coming-soon a {
-  color: #fff;
+  color: #d3d3d3;
+  text-decoration: underline;
 }
 
 .description {
   background-color: rgba(0,0,0,0.7);
-  padding: 1rem;
+  padding: 1rem 3rem;
   border-radius: 20px;
 }
 
@@ -73,9 +82,9 @@ h2 {
   font-size: 3em;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   body {
     background: #333;
     color: white;
   }
-}
+} */
