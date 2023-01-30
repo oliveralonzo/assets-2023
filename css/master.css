@@ -18,6 +18,7 @@ body {
 .main::before {
   content: "";
   position: fixed;
+  top: 0;
   left: 0;
   right: 0;
   z-index: -1;
@@ -57,7 +58,7 @@ body {
 
 .fill {
   min-height: 90vh;
-   height: 90vh;
+   /* height: 90vh; */
 }
 
 .v-centered {
@@ -75,11 +76,17 @@ body {
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 7rem;
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 5rem;
+  }
 }
 
 /* @media (prefers-color-scheme: dark) {
